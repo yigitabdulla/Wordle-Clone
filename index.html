@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class = "nav-bar">
+        <nav>
+            <ul class="myUl">
+                <li><a href="index.html">Wordle</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="link.html">Link</a></li>
+              </ul>
+        </nav>
+    </div>
+
+    <div class="search-button">
+            <label for="text" id="text-label">Enter your guess:</label>
+            <input type="text" id="input-guess"> 
+            <input type="button" id="check-button" value="Check!" onclick="checkGuess()">
+    </div>
+
+
+    <div id="gameContainer"></div>
+
+    <div class = "key-container"></div>
+    
+    <script src="./app.js"></script>
+
+</body>
+</html>
